@@ -57,7 +57,7 @@ server/
 - **TypeScript** for static type checking
 - **PostCSS** with Autoprefixer for CSS processing
 
-## 📦 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - Node.js 
@@ -96,7 +96,7 @@ server/
 - `npm run server` - Start the backend API server
 - `npm run lint` - Run ESLint for code quality checks
 
-## 🎯 Usage Guide
+## Usage Guide
 
 ### Authentication
 1. **Registration**: Create a new account with name, email, and password
@@ -137,26 +137,6 @@ server/
 - **Real-time Features**: WebSocket integration for live chat
 - **Progressive Web App**: Offline functionality and push notifications
 - **Advanced Search**: Elasticsearch integration for complex queries
-
-##  Troubleshooting
-
-### Common Issues
-
-#### Server Connection Issues
-```bash
-# Check if server is running
-curl http://localhost:3001/api/products/categories
-
-# Restart server if needed
-npm run dev
-```
-
-#### Build Issues
-```bash
-# Clear node_modules and reinstall
-rm -rf node_modules package-lock.json
-npm install
-```
 
 #### CORS Issues
 - Ensure backend server is running on port 3001
