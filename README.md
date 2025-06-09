@@ -96,6 +96,14 @@ server/
 - `npm run server` - Start the backend API server
 - `npm run lint` - Run ESLint for code quality checks
 
+  ### Sample Queries
+- "I need a new laptop for programming"
+- "Show me smartphones under $800"
+- "Find me some programming books"
+- "What are your best sellers?"
+- "Add this to my cart"
+- "Show me my cart"
+
 ## Usage Guide
 
 ### Authentication
